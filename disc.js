@@ -477,10 +477,10 @@ tombolSubmit.addEventListener('click', () => {
 
     if (sesuai && tidakSesuai) {
         if (
-            (sesuai === 'p_1' && tidakSesuai == 'k_1') ||
-            (sesuai === 'p_2' && tidakSesuai == 'k_2') ||
-            (sesuai === 'p_3' && tidakSesuai == 'k_3') ||
-            (sesuai === 'p_4' && tidakSesuai == 'k_4')
+            (sesuai === 'p_1' && tidakSesuai === 'k_1') ||
+            (sesuai === 'p_2' && tidakSesuai === 'k_2') ||
+            (sesuai === 'p_3' && tidakSesuai === 'k_3') ||
+            (sesuai === 'p_4' && tidakSesuai === 'k_4')
         ) {
             alert('Tidak boleh memilih pernyataan yang sama');
         } else {
