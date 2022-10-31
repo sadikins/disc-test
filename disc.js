@@ -604,7 +604,7 @@ tombolSubmit.addEventListener('click', () => {
         }
     } else {
         alert(
-            'Anda harus memilih pernyataan yang "PALING" sesuai dan yang "KURANG" sesuai'
+            'Anda harus memilih satu pernyataan yang "PALING" sesuai dan satu yang "KURANG" sesuai'
         );
     }
 });
