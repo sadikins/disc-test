@@ -28,7 +28,18 @@ body {
 
 .card-header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    /* border-bottom: 1px solid mediumpurple; */
+    /* border-top: 1px solid mediumpurple; */
+    /* background-color: rgba(248, 222, 255, 0.562); */
+    /* border-radius: 10px; */
+}
+
+.card-header ul {
+    list-style: none;
+    padding: 0;
 }
 
 .nomor {
@@ -62,12 +73,12 @@ body {
     padding: 2rem;
 }
 
-ul {
+.unorder {
     list-style: none;
     padding: 0;
 }
 
-ul li {
+.unorder li {
     margin: 1rem 0;
 }
 
