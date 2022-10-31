@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: #d3cce3;
+    background: -webkit-linear-gradient(to right, #e9e4f0, #d3cce3);
+    background: linear-gradient(to right, #e9e4f0, #d3cce3);
+    margin-top: 2rem;
+}
+
+.container {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3rem;
+    transition: margin 2000ms ease-in-out;
+}
+
+.card-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nomor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    height: 50px;
+    width: 50px;
+    background-color: mediumpurple;
+    border-radius: 50%;
+}
+
+.tampil_petunjuk {
+    background-color: mediumpurple;
+    padding: 5px;
+    border-radius: 50%;
+    border: white 5px solid;
+}
+
+.md {
+    width: 35rem;
+}
+.lg {
+    width: 60rem;
+}
+
+.card {
+    padding: 2rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 1rem 0;
+}
+
+ol li {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+button {
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 0 0 1rem 1rem;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: mediumpurple;
+}
+
+.total {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pk {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 1rem 3px;
+}
+
+.red {
+    color: orangered;
+}
+
+.green {
+    color: greenyellow;
+}
+
+.purple {
+    color: mediumpurple;
+}
+
+.gray {
+    color: #7c7878;
+}
+
+.hide {
+    visibility: hidden !important;
+}

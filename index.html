@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="shortcut icon" href="8.png" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DISC Test</title>
+        <link rel="stylesheet" href="style.css" />
+        <script defer src="disc.js"></script>
+    </head>
+    <body>
+        <div class="container md" id="container">
+            <div class="card">
+                <div class="card-header">
+                    <div class="nomor">
+                        <span id="nomor_tes">1</span>/
+                        <span id="jml_tes"></span>
+                    </div>
+                </div>
+                <ul>
+                    <li>
+                        <label for="pk" class="pk purple">P</label>
+                        <label for="pk" class="pk red">K</label>
+                        <label for="pernyataan" class="pk purple"
+                            >Pernyataan</label
+                        >
+                    </li>
+                    <li>
+                        <input type="radio" name="p" class="paling" id="p_1" />
+                        <input type="radio" name="k" class="kurang" id="k_1" />
+                        <label for="pernyataan_1" id="pernyataan_1"
+                            >Option 1</label
+                        >
+                    </li>
+                    <li>
+                        <input type="radio" name="p" class="paling" id="p_2" />
+                        <input type="radio" name="k" class="kurang" id="k_2" />
+                        <label for="pernyataan_2" id="pernyataan_2"
+                            >Option 1</label
+                        >
+                    </li>
+                    <li>
+                        <input type="radio" name="p" class="paling" id="p_3" />
+                        <input type="radio" name="k" class="kurang" id="k_3" />
+                        <label for="pernyataan_3" id="pernyataan_3"
+                            >Option 1</label
+                        >
+                    </li>
+                    <li>
+                        <input type="radio" name="p" class="paling" id="p_4" />
+                        <input type="radio" name="k" class="kurang" id="k_4" />
+                        <label for="pernyataan_4" id="pernyataan_4"
+                            >Option 1</label
+                        >
+                    </li>
+                </ul>
+            </div>
+            <button id="submit">Submit</button>
+        </div>
+
+        <div class="container" id="petunjuk">
+            <div class="card">
+                <h3>Petunjuk:</h3>
+                <ol class="gray">
+                    <li>
+                        Bayangkan anda berada dalam salah satu ‘setting’
+                        lingkungan (kerja, keluarga, sekolah) sesuai dengan
+                        tujuan pemeriksaan.
+                    </li>
+                    <li>
+                        Pilih <b>satu</b> pernyataan yang
+                        <b>PALING</b> menggambarkan diri anda dengan cara
+                        meng-klik lingkaran di bawah huruf
+                        <b class="purple"> "P" </b>.
+                    </li>
+                    <li>
+                        Pilih <b>satu</b> pernyataan yang
+                        <b>KURANG</b> menggambarkan diri anda dengan cara
+                        meng-klik lingkaran di bawah huruf
+                        <b class="red"> "K" </b>.
+                    </li>
+                    <!-- <li>
+                        Pada masing-masing nomor, pilih <b>satu saja</b> respon pada pernyataan <b>PALING</b> dan
+                        pernytaan yang <b>KURANG</b> sesuai dengan diri anda.
+                    </li> -->
+                    <li>
+                        Ketika sudah yakin dengan pilihan anda, maka klik tombol
+                        <b>"Submit"</b> untuk melanjutkan ke pernyataan
+                        berikutnya.
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </body>
+</html>
